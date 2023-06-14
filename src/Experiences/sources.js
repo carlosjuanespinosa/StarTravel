@@ -23,8 +23,8 @@ export default [
         path: 'textures/dirt/normal.jpg'
     },
     {
-        name: 'foxModel',
-        type: 'gltfModel',
-        path: 'models/Fox/glTF/Fox.gltf'
+        name: 'naveModel',
+        type: 'glbModel',
+        path: 'models/NAVES.glb'
     }
 ]
