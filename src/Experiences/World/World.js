@@ -1,6 +1,6 @@
 import Experience from '../Experience.js'
 import Environment from './Environment.js'
-import Floor from './Floor.js'
+
 import Nave from './Nave.js'
 
 export default class World
@@ -15,7 +15,7 @@ export default class World
         this.resources.on('ready', () =>
         {
             // Setup
-            this.floor = new Floor()
+           
             this.nave = new Nave()
             this.environment = new Environment()
         })
