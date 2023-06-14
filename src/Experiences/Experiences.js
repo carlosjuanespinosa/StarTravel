@@ -12,7 +12,7 @@ import sources from './sources.js'
 
 let instance = null
 
-export default class Experience
+export default class Experiences
 {
     constructor(_canvas)
     {
@@ -24,7 +24,7 @@ export default class Experience
         instance = this
         
         // Global access
-        window.experience = this
+        window.experiences = this
 
         // Options
         this.canvas = _canvas
@@ -61,7 +61,7 @@ export default class Experience
     update()
     {
         this.camera.update()
-        this.world.update()
+        
         this.renderer.update()
     }
 

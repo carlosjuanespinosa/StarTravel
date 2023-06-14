@@ -1,5 +1,5 @@
 import './style.css'
 
-import Experience from './Experience/Experience.js'
+import Experiences from './Experiences/Experiences.js'
 
-const experience = new Experience(document.querySelector('canvas.webgl'))
+const experiences = new Experiences(document.querySelector('canvas.webgl'))

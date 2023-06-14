@@ -1,15 +1,15 @@
 import * as THREE from 'three'
-import Experience from '../Experience.js'
+import Experiences from '../Experiences.js'
 
 export default class Nave
 {
     constructor()
     {
-        this.experience = new Experience()
-        this.scene = this.experience.scene
-        this.resources = this.experience.resources
-        this.time = this.experience.time
-        this.debug = this.experience.debug
+        this.experiences = new Experiences()
+        this.scene = this.experiences.scene
+        this.resources = this.experiences.resources
+        this.time = this.experiences.time
+        this.debug = this.experiences.debug
 
         // Debug
         if(this.debug.active)
