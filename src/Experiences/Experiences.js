@@ -35,7 +35,8 @@ export default class Experiences
         this.time = new Time()
         this.scene = new THREE.Scene()
         this.resources = new Resources(sources)
-        this.camera = new Camera()
+        this.camera = new Camera("OrbitControls")
+        //this.camera = new Camera("PointerLockControls")
         this.renderer = new Renderer()
         this.world = new World()
 
